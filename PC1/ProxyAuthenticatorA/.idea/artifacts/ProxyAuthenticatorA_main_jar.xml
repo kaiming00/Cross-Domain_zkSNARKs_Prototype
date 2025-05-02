@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="ProxyAuthenticatorA.main:jar">
+    <output-path>$PROJECT_DIR$/JAR</output-path>
+    <root id="root">
+      <element id="archive" name="ProxyAuthenticatorA.main.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="ProxyAuthenticatorA.main" />
+      </element>
+      <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.11" />
+      <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpclient:4.5.13" />
+      <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.8.6" />
+      <element id="library" level="project" name="Gradle: org.bouncycastle:bcprov-jdk16:1.46" />
+      <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+      <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpcore:4.4.14" />
+      <element id="file-copy" path="$PROJECT_DIR$/libs/jpbc-plaf-2.0.0.jar" />
+      <element id="library" level="project" name="Gradle: commons-io:commons-io:2.8.0" />
+      <element id="file-copy" path="$PROJECT_DIR$/libs/jpbc-api-2.0.0.jar" />
+    </root>
+  </artifact>
+</component>

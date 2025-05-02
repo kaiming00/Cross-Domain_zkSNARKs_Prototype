@@ -1,0 +1,22 @@
+{
+  "name": "MyPaperContract",
+  "description": "The chaincode implementation of my paper in node.js",
+  "engines": {
+    "node": "^12.16.1",
+    "npm": "^6.4.1"
+  },
+  "scripts": {
+    "start": "fabric-chaincode-node start",
+    "test": "nyc mocha test --recursive"
+  },
+  "engine-strict": true,
+  "engineStrict": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "fabric-contract-api": "^2.2.2-unstable",
+    "fabric-shim": "^2.2.2-unstable"
+  }
+}

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: HttpServer.Server
+Class-Path: jpbc-api-2.0.0.jar bcprov-jdk16-1.46.jar httpcore-4.4.14.jar
+  commons-io-2.8.0.jar jpbc-plaf-2.0.0.jar gson-2.8.6.jar httpclient-4.5
+ .13.jar commons-codec-1.11.jar commons-logging-1.2.jar
+
